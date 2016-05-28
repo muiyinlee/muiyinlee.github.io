@@ -75,6 +75,7 @@ header h1 {
   font-family: "Pacifico", cursive;
   font-size: 80px;
   text-transform: none;
+  color: white;
   /*---color: rgba(0, 0, 0, 0.5);----*/
 }
 header h2 {
