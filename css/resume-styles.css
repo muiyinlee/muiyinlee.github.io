@@ -7,7 +7,7 @@ body {
   line-height: 1.5;
 
   background: url(../images/resume-upper.jpg) no-repeat fixed 50%;
-  background-size: cover;
+  /*background-size: cover;*/
 }
 
 h1, h2, h3 {
@@ -141,34 +141,30 @@ font-family: 'Open Sans', sans-serif;
 
 /* MEDIA QUERY ----------------------*/
 
-/* MOBILE MEDIA QUERY*/
-@media (max-width: 767px) {
+/* MOBILE TABLET MEDIA QUERY*/
+@media (max-width: 800px) {
   body {
     color: black;
-  }
-}
-
-/* TABLET MEDIA QUERY*/
-@media (min-width: 768px) and (max-width: 939px) {
-  body {
-    color: red;
   }
 
   .profile img {
     float: right;
-    width: 30%;
-    margin-right: 3%;
+    width: 48%;
+    margin-right: 2%;
   }
 
   .profile .summary {
     float: none;
     width: auto;
   }
-}
 
-/* TABLET LANSCAPE + DESKTOP MEDIA QUERY*/
-@media (min-width: 940px) {
-  body {
-    color: #fefefe;
+  .work-experience .details {
+  float: none; /* removed float */
+  width: 100%; /* auto will work as well */
+  padding-right: 0px; /* don't need padding anymore now that it spans across the page */
   }
+
+  .work-experience .description {
+  width: 100%;
+  float: none; /* removed float */
 }
