@@ -6,8 +6,8 @@ body {
   color: #fefefe;
   line-height: 1.5;
 
-  background: url(../images/resume-upper.jpg) no-repeat fixed 50%;
-  background-size: cover;
+  background: url(../images/resume-upper.jpg) no-repeat fixed top right;
+  /*background-size: cover;*/
 }
 
 h1, h2, h3 {
@@ -148,9 +148,10 @@ font-family: 'Open Sans', sans-serif;
   }
 
   .profile img {
-    float: right;
-    width: 48%;
-    margin-right: 2%;
+    float: none;
+    width: 75%;
+    margin: 0 auto;
+    display: block;
   }
 
   .profile .summary {
